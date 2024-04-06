@@ -1,2 +1,2 @@
 def return_not_none():
-    return None
+    assert return_not_none() is not None
